@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-28T16:36:50.778Z",
+        "line": 3,
+        "name": "Alltricks Benim profilm",
+        "description": "",
+        "id": "alltricks;alltricks-benim-profilm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38799829300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Alltricks anasayfasina git",
+            "match": {
+              "location": "stepdefinitions.HomePage.alltricks_anasayfasina_git()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Profil sekmesine geç",
+            "match": {
+              "location": "stepdefinitions.HomePage.profil_sekmesine_gec()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Adresim kismina emaili gir",
+            "match": {
+              "location": "stepdefinitions.HomePage.adresim_kismina_emaili_gir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@now"
+          }
+        ]
+      }
+    ],
+    "name": "Alltricks",
+    "description": "",
+    "id": "alltricks",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/C_Pr.feature",
+    "tags": []
+  }
+]

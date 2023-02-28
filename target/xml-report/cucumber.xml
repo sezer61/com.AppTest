@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="40.096">
+    <testcase classname="Alltricks" name="Alltricks Benim profilm" time="39.19">
+        <system-out><![CDATA[Given Alltricks anasayfasina git............................................passed
+And Profil sekmesine geç....................................................passed
+Then Adresim kismina emaili gir.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
